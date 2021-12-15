@@ -1,4 +1,9 @@
 @import url(../styles/normalize.css);
+@import url(../fonts/Inter/inter.css);
+@import url(../blocks/page/page.css);
+
+
+
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -21,3 +26,26 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__list/footer__list.css);
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 425px) {
+
+}

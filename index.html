@@ -12,17 +12,19 @@
   <div class="page">
 
     <header class="header">
-      <img src="" alt="Логотип Россия" class="header__logo">
-      <a href="#" class="header__lang-link">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
+      <img src="images/header__logo.svg" alt="Логотип Россия" class="header__logo">
+      <div class="header__lang">
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link">En</a>
+      </div>
     </header>
 
-    <main>
+    <main class="content">
 
       <section class="lead">
         <H1 class="lead__title">Путешествия по России</H1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="" alt="" class="lead__image">
+        <img src="images/lead__image.jpg" alt="Маршрут поезда наложенный фон фотографии купе" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
@@ -42,22 +44,28 @@
       </section>
 
       <section class="photo-grid">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
-        <img src="" alt="" class="photo-grid__item">
+        <img src="images/photo-grid__item-1.png" alt="Фото из окна поезда" class="photo-grid__item">
+        <img src="images/photo-grid__item-2.jpg" alt="Фото со склона заснеженной горы в облаках"
+          class="photo-grid__item">
+        <img src="images/photo-grid__item-3.jpg" alt="Фото волка на стоге сена в туманном поле"
+          class="photo-grid__item">
+        <img src="images/photo-grid__item-4.jpg" alt="Фото туманного склона холма усеянного кедрами"
+          class="photo-grid__item">
+        <img src="images/photo-grid__item-5.jpg" alt="Фото коле классического автомобиля на прозрачном льду Байкала"
+          class="photo-grid__item">
+        <img src="images/photo-grid__item-6.jpg" alt="Фото пляжа на Курильских островах" class="photo-grid__item">
+        <img src="images/photo-grid__item-7.jpg" alt="Фото высоких гор с заснеженными вершинами"
+          class="photo-grid__item">
+        <img src="images/photo-grid__item-8.jpg" alt="Фото белоснежных буев на фоне неба" class="photo-grid__item">
+        <img src="images/photo-grid__item-9.jpg" alt="Фото склона холма утопающего в тумане" class="photo-grid__item">
+        <img src="images/photo-grid__item-10.jpg" alt="Фото горы сделанное с низины" class="photo-grid__item">
+        <img src="images/photo-grid__item-11.jpg" alt="Фото пляжа окруженного скалами" class="photo-grid__item">
+        <img src="images/photo-grid__item-12.jpg" alt="Фото холмов в густом тумане" class="photo-grid__item">
       </section>
 
       <section class="places">
         <div class="place">
+          <img src="images/place__image-1.jpg" alt="Фото Куршкая коса" class="place__image">
           <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -72,10 +80,12 @@
             запах стального, прохладного моря.</p>
         </div>
         <div class="place">
+          <img src="images/place__image-2.jpg" alt="Фото одной из скал Кольского полуострова" class="place__image">
           <h3 class="place__title">Кольский</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link"
+              target="_blank">National Geographic</a>
           </div>
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
             юг —
@@ -87,6 +97,7 @@
             в Мурманск.</p>
         </div>
         <div class="place">
+          <img src="images/place__image-3.jpg" alt="Фото ноутбука на фоне леса Алтая" class="place__image">
           <h3 class="place__title">Алтай</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -101,6 +112,7 @@
             пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
         <div class="place">
+          <img src="images/place__image-4.jpg" alt="Крупное фото льда замерзщего Байкала" class="place__image">
           <h3 class="place__title">Зимний Байкал</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -115,6 +127,7 @@
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
         <div class="place">
+          <img src="images/place__image-5.jpg" alt="Фото Водлозера" class="place__image">
           <h3 class="place__title">Карелия</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -130,13 +143,11 @@
       </section>
 
       <section class="cover">
-        <div class="cover__overlay">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background" target="_blank">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-              электричках.</p>
-          </a>
-        </div>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay" target="_blank">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            электричках.</p>
+        </a>
       </section>
 
     </main>

@@ -1,13 +1,34 @@
-/* Определяю стили для блока header */
 .header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
+  height: 52px;
+  max-width: 1184px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
+  justify-content: space-between;
+  padding: 52px 48px 28px 48px;
+  
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .header {
+       max-width: 1024px;
+  }   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+       max-width: 768px;
+   }   
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .header {
+       max-width: 425px;
+   }   
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+       max-width: 320px;
+   }   
 }

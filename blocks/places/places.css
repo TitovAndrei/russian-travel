@@ -5,6 +5,7 @@
     padding: 92px 148px 92px 148px;
     display: grid;
     row-gap: 80px;
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,6 +23,16 @@
         row-gap: 73px;
         padding: 88px 24px 90px 24px;
   }
+}
+
+@media screen and (max-width: 690px) {
+    .places {
+        margin: 0 auto;
+        max-width: 320px;
+        max-height: 5177px;
+        row-gap: 50px;
+        padding: 64px 0px 66px 0px;
+    }
 }
 
 @media screen and (max-width: 320px) {

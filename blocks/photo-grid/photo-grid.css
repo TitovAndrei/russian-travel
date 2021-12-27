@@ -13,7 +13,7 @@
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(4, auto);
     }
-  }
+}
 
 @media screen and (max-width: 890px) {
     .photo-grid {
@@ -21,7 +21,7 @@
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(6, auto);
         padding: 0px 24px 0px 24px;
-  }
+    }
 }
 
 @media screen and (max-width: 320px) {

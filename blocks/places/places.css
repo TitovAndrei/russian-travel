@@ -10,7 +10,7 @@
     .places {
         padding: 92px 48px 92px 48px;
         max-width: 928px;
-  }
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -18,7 +18,7 @@
         max-width: 720px;
         row-gap: 73px;
         padding: 88px 24px 90px 24px;
-  }
+    }
 }
 
 @media screen and (max-width: 690px) {

@@ -8,13 +8,13 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1179px) {
     .page {
         max-width: 1024px;
     }   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .page {
         max-width: 768px;
     }   

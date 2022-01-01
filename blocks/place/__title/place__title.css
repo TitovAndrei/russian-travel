@@ -9,7 +9,7 @@
     padding: 0px;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place__title {
         padding: 0px 16px 0px 16px;
         font-size: 32px;

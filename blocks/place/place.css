@@ -7,21 +7,28 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1179px) {
+@media screen and (max-width: 1200px) {
     .place {
         grid-template-columns: 440px 456px;
         gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1023px) {
     .place {
         grid-template-columns: 340px 352px;
         gap: 48px 28px;
     }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 767px) {
+    .place {
+        row-gap: 32px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
     .place {
         row-gap: 32px;
         grid-template-columns: 320px;

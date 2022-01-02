@@ -20,6 +20,12 @@
     }   
 }
 
+@media screen and (max-width: 750px) {
+    .page {
+        max-width: 425px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .page {
         max-width: 320px;

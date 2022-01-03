@@ -22,7 +22,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: .8;
+    opacity: .3;
     background-color: #2A2C2F;
     z-index: -1;
 }
@@ -31,20 +31,20 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 1024px) {
-    .cover__overlay{
+@media screen and (max-width: 1200px) {
+    .cover__overlay {
         min-height: 640px;
-    } 
+    }
 }
 
-@media screen and (max-width: 768px) {
-    .cover__overlay{
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
         min-height: 480px;
-    } 
+    }
 }
 
-@media screen and (max-width: 320px) {
-    .cover__overlay{
+@media screen and (max-width: 767px) {
+    .cover__overlay {
         min-height: 200px;
-    } 
+    }
 }

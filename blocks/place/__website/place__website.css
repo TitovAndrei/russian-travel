@@ -1,5 +1,5 @@
 .place__website {
-    width: 456px;
+    max-width: 456px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,8 +8,15 @@
     align-items: flex-start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1020px) {
     .place__website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        max-width: 288px;
         padding: 0px 16px 0px 16px;
     }
 }

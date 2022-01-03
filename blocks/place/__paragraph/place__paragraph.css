@@ -27,11 +27,12 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
         margin: 0px 16px 25px 16px;
         max-width: 284px;
     }
+
     .place__paragraph:last-of-type {
         margin: 0px 16px 0px 16px;
     }
